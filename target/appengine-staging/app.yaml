@@ -1,0 +1,7 @@
+runtime: java
+vm: true
+api_version: 1
+threadsafe: True
+handlers:
+  - url: .*
+    script: dynamic
